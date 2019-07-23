@@ -1,8 +1,7 @@
 # PAWS
-Protection Assistant for Wildlife Security
-Prediction and prescription to combat illegal wildlife poaching.
+Protection Assistant for Wildlife Security (PAWS). Prediction and prescription to combat illegal wildlife poaching.
 
-Code by Lily Xu, Harvard University. June 2019
+Code by Lily Xu, Harvard University. June 2019.
 
 ## Directories
 - `./preprocess/` - R code for processing raw data
@@ -24,3 +23,9 @@ In `./iware/`, execute the driver script, and choose whether to test (to run tra
 In `./prediction/`, follow the README there.
 
 In `./field_tests/`, execute `select_field_test.py` to run relevant tests
+
+## Relevant paper
+
+Stay Ahead of Poachers: Illegal Wildlife Poaching Prediction and Patrol Planning Under Uncertainty with Field Test Evaluations
+
+https://arxiv.org/abs/1903.06669
