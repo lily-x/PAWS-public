@@ -1,18 +1,7 @@
 # PAWS
-Protection Assistant for Wildlife Security (PAWS). Prediction and prescription to combat illegal wildlife poaching.
+Protection Assistant for Wildlife Security (PAWS). Prediction and prescription to combat illegal wildlife poaching. Teamcore Research Group, Harvard University.
 
-Teamcore Research Group, Harvard University
-
-The following students have contributed to this codebase and methodology:
-
-Fei Fang
-Benjamin Ford
-Shahrzad Gholami
-Debarun Kar
-Laksh Matai
-Sara Mc Carthy
-Thanh H. Nguyen
-Lily Xu
+The following students have contributed to this codebase and methodology: Fei Fang, Benjamin Ford, Shahrzad Gholami, Debarun Kar, Laksh Matai, Sara Mc Carthy, Thanh H. Nguyen, Lily Xu
 
 ## Directories
 - `./preprocess/` - R code for processing raw data
@@ -59,6 +48,8 @@ Shahrzad Gholami, Sara Mc Carthy, Bistra Dilkina, Andrew Plumptre, Milind Tambe,
 
 Proceedings of the 17th International Conference on Autonomous Agents and Multi-agent Systems (AAMAS) 2018
 
+https://projects.iq.harvard.edu/files/teamcore/files/2018_28_teamcore_sgholami_aamas18.pdf
+
     @inproceedings{gholami2018adversary,
       title={Adversary models account for imperfect crime data: Forecasting and planning against real-world poachers},
       author={Gholami, Shahrzad and Mc Carthy, Sara and Dilkina, Bistra and Plumptre, Andrew and Tambe, Milind and Driciru, Margaret and Wanyama, Fred and Rwetsiba, Aggrey and Nsubaga, Mustapha and Mabonga, Joshua and others},
@@ -83,12 +74,16 @@ Proceedings of the 16th Conference on Autonomous Agents and MultiAgent Systems (
       organization={International Foundation for Autonomous Agents and Multiagent Systems}
     }
 
+https://projects.iq.harvard.edu/files/teamcore/files/2017_5_teamcore_aamas2017_intercept.pdf
+
 
 **Deploying PAWS: Field optimization of the protection assistant for wildlife security**
 
 Fei Fang, Thanh H. Nguyen, Rob Pickles, Wai Y. Lam, Gopalasamy R. Clements, Bo An, Amandeep Singh, Milind Tambe, Andrew Lemieux
 
 IAAI 2016
+
+https://projects.iq.harvard.edu/files/teamcore/files/2016_4_teamcore_iaai16_paws.pdf
 
     @inproceedings{fang2016deploying,
       title={Deploying PAWS: Field optimization of the protection assistant for wildlife security},
