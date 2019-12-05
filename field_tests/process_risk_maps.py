@@ -128,7 +128,7 @@ def save_map_shapefile(vis, map, name, crs_out, cmap='Reds', vmin=0., vmax=1.):
 
     # create output shapefile and save
     map_grid.crs = crs_out  # {'init': crs_out}.
-    map_grid = scale_to_real(vis, map_grid)
+    map_grid = vis.scale_to_real(map_grid)
     map_grid.plot(ax=ax, column='value', legend=True, cmap=cmap, vmin=vmin, vmax=vmax)
 
     map_grid.to_file('{}/shapefiles/{}_grid.shp'.format(vis.output_filepath, name))
