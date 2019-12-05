@@ -131,6 +131,9 @@ def save_map_shapefile(vis, map, name, crs_out, cmap='Reds', vmin=0., vmax=1.):
     map_grid = vis.scale_to_real(map_grid)
     map_grid.plot(ax=ax, column='value', legend=True, cmap=cmap, vmin=vmin, vmax=vmax)
 
+    if not os.path.exists('{}/shapefiles/'.format(vis.output_filepath)):
+        os.makedirs('{}/shapefiles/'.format(vis.output_filepath))
+
     map_grid.to_file('{}/shapefiles/{}_grid.shp'.format(vis.output_filepath, name))
 
     plt.title('Map - {}'.format(name))
