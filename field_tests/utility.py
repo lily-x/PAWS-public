@@ -45,7 +45,9 @@ def map_to_color_grid(map):
     polygons = []
     values = []
     for (y, x), value in maenumerate(map):
-        polygons.append(Polygon([(x, y), (x+1, y), (x+1, y+1), (x, y+1)]))
+        # map UTM corresponds with center of cell
+        polygons.append(Polygon([(x-.5, y-.5), (x+.5, y-.5),
+                                 (x+.5, y+.5), (x-.5, y+.5)]))
         values.append(value)
 
     grid = gpd.GeoDataFrame({'value': values, 'geometry': polygons})
