@@ -49,6 +49,17 @@ class Visualize:
 
         return tuple(idx)
 
+
+    # get list of np.arrays, where each is a map of predicted risk`
+    # at a different threshold of patrol effort
+    def get_map_from_array(self, array):
+        idx = self.get_indices_from_gridmap()
+
+        map = np.zeros(self.gridmap.shape)
+        map[idx] = array
+
+        return map
+
     # get list of np.arrays, where each is a map of predicted risk`
     # at a different threshold of patrol effort
     def get_map_from_csv(self, filename):

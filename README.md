@@ -7,7 +7,8 @@ The following students have contributed to this codebase and methodology: Fei Fa
 - `./preprocess/` - R code for processing raw data
 - `./preprocess_consolidate/` - Python code for consolidating output from preprocessing
 - `./iware/` - Python code for ML risk prediction
-- `./predict/` Python code for patrol planning
+- `./planning/` - Python code for patrol planning. (Note that this also includes older versions of prediction code.)
+- `./field_tests/` - Python code for selecting field test areas and visualizing park geography and risk maps
 
 These directories must be made:
 - `./inputs/` - raw data: CSV file of patrol observations and shapefiles of geographic features
@@ -16,11 +17,11 @@ These directories must be made:
 ## Processing order
 In `./preprocess/`, execute the `pipeline` script to run all required preprocessing steps.
 
-In `./consolidate_preprocess/`, execute the driver script, which will call all necessary functions.
+In `./preprocess_consolidate/`, execute the driver script, which will call all necessary functions.
 
 In `./iware/`, execute the driver script, and choose whether to test (to run train/test code and evaluate performance) or make predictions. Run `visualize_maps.py` to generate images of the riskmaps.
 
-In `./prediction/`, follow the README there.
+In `./planning/`, follow the README there.
 
 In `./field_tests/`, execute `select_field_test.py` to run relevant tests
 
