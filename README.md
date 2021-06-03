@@ -3,6 +3,8 @@ Protection Assistant for Wildlife Security (PAWS). Prediction and prescription t
 
 The following students have contributed to this codebase and methodology: Fei Fang, Benjamin Ford, Shahrzad Gholami, Debarun Kar, Laksh Matai, Sara Mc Carthy, Thanh H. Nguyen, Lily Xu
 
+This project is licensed under the terms of the MIT license.
+
 ## Directories
 - `./preprocess/` - R code for processing raw data
 - `./preprocess_consolidate/` - Python code for consolidating output from preprocessing
